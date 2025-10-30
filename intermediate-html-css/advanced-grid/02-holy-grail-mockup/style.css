@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -58,7 +62,6 @@
 .menu ul,
 .menu li {
   font-size: 16px;
-  list-style: none;
 }
 
 .sidebar {
