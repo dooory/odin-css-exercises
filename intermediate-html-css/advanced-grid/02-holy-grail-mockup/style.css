@@ -90,6 +90,12 @@ li {
   grid-area: nav;
 }
 
+.nav ul {
+  display: grid;
+
+  grid-template: 1fr / repeat(3, 1fr);
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
